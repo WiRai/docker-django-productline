@@ -1,0 +1,8 @@
+version: "3"
+services:
+  django-productline:
+    image: wirai/django-productline:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./code:/code
