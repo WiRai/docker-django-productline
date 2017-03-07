@@ -7,3 +7,5 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["django-productline"]
 
 VOLUME ["/code"]
+
+EXPOSE ["8000"]
